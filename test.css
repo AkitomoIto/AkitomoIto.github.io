@@ -1,0 +1,34 @@
+.allDisplay{
+    background-color: cornflowerblue;
+    margin: 50px;
+}
+.title{
+    text-align:center;
+    background-color: lightsteelblue;
+}
+
+.introduce{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 0.5em;
+    margin-bottom: 100px;
+}
+
+.syorai-picture{
+width: 150px;
+height: 150px;
+float:right;
+background-color: white;
+}
+
+.subTitle{
+    font-size: 20pt;
+    background-color: blue;
+    color: white;
+}
+
+.text{
+    line-height: 10px;
+    font-size: 18px;
+}
