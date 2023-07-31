@@ -1,21 +1,22 @@
 .allDisplay{
-    background-color: cornflowerblue;
-    margin: 50px;
+    background-color: rgb(179, 197, 229);
+    margin: 10%;
 }
 .title{
     text-align:center;
-    background-color: lightsteelblue;
+    background-color: rgb(78, 75, 186);
+    color: white;
 }
 
 .introduce{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
-    line-height: 0.5em;
+    line-height: 1.5em;
     margin-bottom: 100px;
 }
 
-.syorai-picture{
+.picture{
 width: 150px;
 height: 150px;
 float:right;
@@ -29,6 +30,10 @@ background-color: white;
 }
 
 .text{
-    line-height: 10px;
+    line-height: 1.5em;
     font-size: 18px;
+}
+
+select {
+    grid-area: select;
 }
