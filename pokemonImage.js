@@ -5,14 +5,14 @@ const allPokemon = [
     },
     {
         name : "Blastoise",
-        url : "https://www.pokemon-card.com/ex/25th/assets/images/s8aP/card-3.png",
+        url : "https://3.bp.blogspot.com/-pq-LLjyPoqo/WwJZnND_U-I/AAAAAAABMGc/RPqrox3dUdwSqUo6FWF4zhxzor8kYMIvACLcBGAs/s180-c/character_turtle_oyako_mago.png",
     },
     {
         name : "Venusaur",
-        url : "https://www.pokemon-card.com/ex/25th/assets/images/s8aP/card-2.png",
+        url : "https://1.bp.blogspot.com/-Y-An3KpCKKc/UReRtV2Vd_I/AAAAAAAAMSs/P9HsbFZ3IH4/s180-c/capybara.png",
     },
     {
         name : "pikachu",
-        url : "https://www.pokemon-card.com/assets/images/card_images/large/S8a/040066_P_PIKACHIXYUU.jpg",
+        url : "https://1.bp.blogspot.com/-O13Quj63SxQ/Xd-DzttMGtI/AAAAAAABWS8/ujY7JUCkw3U0LArUEd3zoNP4hr2RtFHfACNcBGAsYHQ/s180-c/eto_nezumi_banzai.png",
     }
 ]
