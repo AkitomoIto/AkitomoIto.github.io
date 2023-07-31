@@ -2,49 +2,78 @@
 <html lang="ja">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <script type="text/javascript" src="script.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body class="allDisplay">
-  <h1 class="title">DIGプログラミング基礎コース成果報告</h1>
-  <h2 class="introduce">7/5(水)~8/2(水)の20日間、受講させていただきました。<p>
-    20日間で出来るようになったことを紹介させていただきます<p>
-  </p></h2>
-  <h3 class="subTitle">　０．はじめに<p></p></h3>
-  <h4 class="text">参加前のプログラミングレベル<P>
-      <img class="syorai-picture" src="C:\Users\Akitomo_Ito\Desktop\画像集\pose_syourai_man.png">
-        <br>プログラム経験：C言語(学生)、Excelマクロ（学生、社会人）<P>
-        ネット検索して改造するレベル<P>
-          <br>
-          <br>
-        参加の動機<p>
-        今後の会社生活で自身を持てるスキルを獲得したい！<p>
-        これからの時代はプログラムでしょ！定年までにスキルを獲得しておきたい！<p>
-        今からスタートしても、老後の楽しみになるかな、子供に教えられるかな！<p>
-      </p>
-  </h4>
+    <div1 class="div1">
+        <h1 class="title">DIGプログラミング基礎コース成果報告</h1>
+        <h2 class="introduce">7/5(水)~8/2(水)の20日間、受講させていただきました。<p>
+                20日間で出来るようになったことを紹介させていただきます
+            <p></p>
+        </h2>
+    </div1>
 
-  <h5 class="subTitle">　１．20日間で学んだこと</h5>
-  <h6 class="text">
-    <img class="syorai-picture" src="C:\Users\Akitomo_Ito\Desktop\画像集\character_program_happy.png">
-      （１）JavaScriptのコードを読み書きできるようになった！<P>
-      （２）JavaScriptとHTMLとCSSの役割を理解できた！<P>
-      （３）プログラムは誰にでも出来るものだとわかった！
-    </P>
-    </h6>
-  
-  <h7 class="subTitle">　2．</h7>
-  <h8 class="text">
+    <div2 class="div2">
+        <h3 class="subTitle">　０．はじめに<p></p>
+        </h3>
+        <h4 class="text">
+            <img class="picture" src="C:\Users\Akitomo_Ito\Desktop\画像集\pose_syourai_man.png">
+            ●参加前のプログラミングレベル<P>
+                <br>プログラム経験：C言語(学生)、Excelマクロ（学生、社会人）
+            <P>
+                ネット検索して改造するレベル
+            <P>
+                RPAにも興味があり、UIPath、PowerAutomateもちょっとやり始めたところ。
+            <p>
+                <br>
+                <br>
+                ●参加の動機
+            <p>
+                今後の会社生活で自身を持てるスキルを獲得したい！
+            <p>
+                これからの時代はプログラムでしょ！定年までにスキルを獲得しておきたい！
+            <p>
+                今からスタートしても、老後の楽しみになるかな、子供に教えられるかな！
+            <p></p>
+        </h4>
+    </div2>
 
-  </h8>
+    <div3 class="div3">
+        <h5 class="subTitle">　１．20日間で学んだこと</h5>
+        <h6 class="text">
+            <img class="picture" src="C:\Users\Akitomo_Ito\Desktop\画像集\character_program_happy.png">
+            （１）JavaScriptのコードを読み書きできるようになった！<P>
+                （２）JavaScriptとHTMLとCSSの役割を理解できた！
+            <P>
+                （３）プログラムは誰にでも出来るものだとわかった！</P>
+        </h6>
+    </div3>
 
-  
+    <div4 class="div4">
+        <h7 class="subTitle">　2．苦労したこと</h7>
+        <h8 class="text">
+            ・オブジェクトの理解<p>
+            ・DOM<p></p>
+        </h8>
+        <h9>カード画像検索機能<p>
+                <select class="PokemonSelect" id="PokemonSelect" onchange="funcPokemon()">
+                    <option>選択してください</option>
+                    <option value="charizard">リザードン</option>
+                    <option value="Blastoise">カメックス</option>
+                    <option value="Venusaur">フシギバナ</option>
+                </select>
+        </h9>
+    </div4>
+
 </body>
 
 </html>
 
 <link rel="stylesheet" href="test.css">
+<script src="pokemonImage.js"></script>
 <script src="script.js"></script>
+
