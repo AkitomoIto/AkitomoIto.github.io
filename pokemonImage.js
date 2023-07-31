@@ -1,7 +1,7 @@
 const allPokemon = [
     {
         name : "Charizard",
-        url : "https://www.pokemon-card.com/assets/images/card_images/large/CP6/032217_P_RIZADON.jpg",
+        url : "https://www.irasutoya.com/2018/07/blog-post_932.html",
     },
     {
         name : "Blastoise",
