@@ -1,7 +1,7 @@
 const allPokemon = [
     {
         name : "Charizard",
-        url : "https://www.irasutoya.com/2018/07/blog-post_932.html",
+        url : "https://3.bp.blogspot.com/-2Gtmz3EpX2g/W0G3ZHklHRI/AAAAAAABNPE/uIHrX-jr0zIbFhAss0m_Z4fDNnwnK-MvwCLcBGAs/s180-c/thumbnail_fantasy_dragon.jpg",
     },
     {
         name : "Blastoise",
